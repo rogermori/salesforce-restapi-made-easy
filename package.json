@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/rogermori/salesforce-restapi-made-easy#readme",
   "dependencies": {
-    "got": "^9.2.2"
+    "axios": "^0.18.0",
+    "objects-made-easy": "^1.0.2",
+    "query-string": "^6.2.0"
   }
 }
