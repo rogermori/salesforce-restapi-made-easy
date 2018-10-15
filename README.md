@@ -42,7 +42,7 @@ console.log(createSearchCriteria(' tavern by   the sea  '));
 ````js
 const {escapeSOSL, escapeSOQL, easyAPI} = require('../index');
 
-// Prerequisite: Fetch a token and a organization's url
+// Prerequisite: Fetch a token and an organization's url
 //              from the Salesforce's OAuth2 API.
 (async function() {
   try {
