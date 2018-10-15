@@ -1,0 +1,29 @@
+{
+  "extends": "eslint-config-google",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2017
+  },
+  "rules": {
+    "max-len": [
+      2,
+      {
+        "code": 240,
+        "tabWidth": 2,
+        "ignoreUrls": true
+      }
+    ],
+    "new-cap": 0,
+    "require-jsdoc": [
+      0,
+      {
+        "require": {
+          "FunctionDeclaration": true,
+          "MethodDefinition": true,
+          "ClassDeclaration": true
+        }
+      }
+    ],
+    "camelcase": [0, {"properties": "never"}]
+  }
+}
