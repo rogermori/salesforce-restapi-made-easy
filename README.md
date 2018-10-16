@@ -40,7 +40,7 @@ console.log(createSearchCriteria(' tavern by   the sea  '));
  
 ### SOQL queries and SOSL searches
 ````js
-const {escapeSOSL, escapeSOQL, easyAPI} = require('../index');
+const {escapeSOSL, escapeSOQL, easyAPI} = require('salesforce-restapi-made-easy');
 
 // Prerequisite: Fetch a token and an organization's url
 //              from the Salesforce's OAuth2 API.
