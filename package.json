@@ -1,6 +1,6 @@
 {
   "name": "salesforce-restapi-made-easy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node.js implementation of the salesforce's rest API.",
   "main": "index.js",
   "scripts": {
