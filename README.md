@@ -67,3 +67,17 @@ const {escapeSOSL, escapeSOQL, easyAPI} = require('salesforce-restapi-made-easy'
 })().then((records)=>console.log(records))
     .catch((error)=>console.error(error));
 ````
+### Get an Auth2 Token
+ ```js
+const {getOauth2Token} = require('salesforce-restapi-made-easy');
+getOauth2Token({
+  client_id: 'your_client_id',
+  client_secret: 'your_client_secret',
+  username: 'your_username',
+  passwordAndToken: 'yourPasswordFollowedByYourToken',
+}, 'https://test.salesforce.com/services/oauth2/token')
+    .then((tokenReponse)=>{
+      const {success, message, data: {access_token, instance_url}} = tokenReponse;
+      console.log(success, message, access_token, instance_url);
+    });
+ ```
