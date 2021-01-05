@@ -23,7 +23,7 @@
   "homepage": "https://github.com/rogermori/salesforce-restapi-made-easy#readme",
   "dependencies": {
     "api-made-easy": "^1.1.2",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "objects-made-easy": "^1.0.7"
   },
   "devDependencies": {
